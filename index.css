@@ -4,7 +4,6 @@ body{
     height: 163vh;
     font-weight: bold;
     letter-spacing: 2px;
-    margin-top: 10px;
     margin-bottom: 0px;
     padding: 0;
 }
@@ -28,7 +27,7 @@ body{
     float: left;
 }
 .right{
-    width: 50%;
+    width: 55%;
     float: left;
 }
 .profile-img{
@@ -149,9 +148,7 @@ p{
     padding:30px 10px 10px 0px ;
     text-decoration: solid;
 }
-.p4{
-    font-size: 31px;
-}
+
 .name-div h1{
     margin-bottom: 15px;
 }
@@ -159,8 +156,19 @@ p{
     padding: 0px 25px;
     margin-top: 0px;
 }
+
+.p4{
+    padding-left: 25px;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
 .p2{
-    padding-left: 15px;
+    padding-left: 0px;
     font-size: 10px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -175,4 +183,8 @@ p{
     word-spacing: 2px;
     line-height: 18px;
     margin-top: 5px;
+}
+
+.p5{
+    font-size: xx-large;
 }
