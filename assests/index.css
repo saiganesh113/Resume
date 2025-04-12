@@ -76,11 +76,11 @@ body{
     margin: 0 15px; 
 }
 
-.p1{
-    padding: 5px 5px;
-    font-size: 12.15px;
-    padding-left: 20px;
-    overflow: hidden; 
+.p1 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 12px;
 }
 p{
     padding-left: 20px;
@@ -97,12 +97,22 @@ p{
     padding-right: 10px !important;
     vertical-align: sub;
 }
-.skill-container{
+.p1 span {
+    width: 80px; 
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+.skill-container {
     width: 150px;
     background-color: #4d4d4d;
-    margin: 0 15px;
+    margin-left: 15px;
+    height: 10px;
+    border-radius: 4px;
+    overflow: hidden;
 }
-.skill{
+.skill {
+    height: 100%;
     text-align: right;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -112,16 +122,20 @@ p{
     width: 90%;
     background-color: white;
 }
-.css{
-    width: 80%;
-    background-color: white;
-}
 .js{
-    width: 75%;
+    width: 80%;
     background-color: white;
 }
 .React{
     width: 80%;
+    background-color: white;
+}
+.Angular{
+    width: 85%;
+    background-color: white;
+}
+.vite{
+    width: 95%;
     background-color: white;
 }
 .nodejs{
@@ -129,7 +143,15 @@ p{
     background-color: white;
 }
 .Java{
+    width: 80%;
+    background-color: white;
+}
+.Python {
     width: 70%;
+    background-color: white;
+}
+.Express {
+    width: 90%;
     background-color: white;
 }
 .mysql{
@@ -188,3 +210,16 @@ p{
 .p5{
     font-size: xx-large;
 }
+.other-skills-container {
+    display: flex;
+    gap: 45px; 
+    justify-content: start;
+    flex-wrap: wrap; 
+    padding: 25px;
+}
+
+.pskils img {
+    width: 25px;
+    height: 25px;
+}
+
