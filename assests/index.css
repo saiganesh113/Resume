@@ -23,12 +23,13 @@ body{
 }
 .left{
     background-color: #ecf0ff;
-    width: 44%;
+    width: 42%;
     float: left;
 }
-.right{
-    width: 55%;
+.right {
+    width: 58%;
     float: left;
+    text-align: justify;
 }
 .profile-img{
     height: 150px;
@@ -59,12 +60,12 @@ body{
 .heading::after{
     content: '';
     position: absolute;
-    width: 22px;
-    height: 18px;
+    width: 18px;
+    height: 19px;
     background-color: #4d4d4d;
-    left: 279px;
-    top: 21px;
-    transform:  rotate(76deg);
+    left: 268px;
+    top: 19px;
+    transform:  rotate(78deg);
     z-index: 0;
 }
 .hob {
@@ -212,7 +213,7 @@ p{
 }
 .other-skills-container {
     display: flex;
-    gap: 45px; 
+    gap: 40px; 
     justify-content: start;
     flex-wrap: wrap; 
     padding: 25px;
